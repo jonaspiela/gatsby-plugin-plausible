@@ -1,6 +1,6 @@
 # gatsby-plugin-plausible
 
-[![npm package](https://flat.badgen.net/npm/v/gatsby-plugin-plausible)](https://badgen.net/npm/v/gatsby-plugin-plausible)
+[![npm package](https://flat.badgen.net/npm/v/@dnwjn/gatsby-plugin-plausible)](https://www.npmjs.com/package/@dnwjn/gatsby-plugin-plausible)
 
 A Gatsby plugin for adding [Plausible](https://plausible.io/) analytics to your Gatsby site.
 
@@ -31,20 +31,20 @@ The plugin includes the Plausible tracking script for a configured domain. It al
 
 ### Manual
 
-1. Install `gatsby-plugin-plausible`:
+1. Install the plugin:
 
    ```bash
-   npm install --save gatsby-plugin-plausible
+   npm install --save @dnwjn/gatsby-plugin-plausible
    ```
 
-2. Add plugin to `gatsby-config.js`:
+2. Add the plugin to `gatsby-config.js`:
 
    ```javascript
    // gatsby-config.js
    module.exports = {
      plugins: [
        {
-         resolve: 'gatsby-plugin-plausible',
+         resolve: '@dnwjn/gatsby-plugin-plausible',
          options: {
            domain: 'your-gatsby-site.tld',
            plausibleDomain: 'your-plausible-instance.tld',
@@ -58,7 +58,7 @@ The plugin includes the Plausible tracking script for a configured domain. It al
 
 ### Gatsby Recipe
 
-This will install `gatsby-plugin-plausible` and add a sample configuration.
+This will install `@dnwjn/gatsby-plugin-plausible` and add a sample configuration.
 
 1. Upgrade gatsby-cli and gatsby to the latest version:
 
