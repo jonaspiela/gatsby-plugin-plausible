@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-plausible",
+  "name": "@dnwjn/gatsby-plugin-plausible",
   "description": "A Gatsby plugin for adding Plausible analytics to your Gatsby site.",
   "version": "0.0.7",
   "author": "Danique Wijnalda <hello@dnwjn.dev> (https://dnwjn.dev)",
@@ -15,10 +15,14 @@
     }
   ],
   "license": "MIT",
-  "repository": "dnwjn/gatsby-plugin-plausible",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnwjn/gatsby-plugin-plausible.git"
+  },
   "bugs": {
     "url": "https://github.com/dnwjn/gatsby-plugin-plausible/issues"
   },
+  "homepage": "https://github.com/dnwjn/gatsby-plugin-plausible#readme",
   "main": "index.js",
   "keywords": [
     "gatsby",
