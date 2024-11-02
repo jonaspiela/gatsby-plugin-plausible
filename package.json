@@ -34,10 +34,13 @@
     "build": "babel src --out-dir . --ignore __tests__",
     "watch": "babel -w src --out-dir . --ignore **/__tests__",
     "prepublishOnly": "cross-env NODE_ENV=production npm run build",
-    "version": "auto-changelog -p && git add CHANGELOG.md",
     "lint": "eslint ./src/**/*.js",
     "format": "prettier --write 'src/**/*.js'",
-    "test": "npm run lint && jest --coverage"
+    "test": "npm run lint && jest --coverage",
+    "version": "auto-changelog -p && git add CHANGELOG.md",
+    "bump-patch": "npm version patch --no-git-tag-version",
+    "bump-minor": "npm version minor --no-git-tag-version",
+    "bump-major": "npm version major --no-git-tag-version"
   },
   "dependencies": {
     "@babel/runtime": "^7.9.2",

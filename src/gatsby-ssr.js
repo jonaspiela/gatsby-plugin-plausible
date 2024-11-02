@@ -19,13 +19,8 @@ const getOptions = (pluginOptions) => {
 exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
   if (process.env.NODE_ENV !== 'production') return null
 
-  const {
-    plausibleDomain,
-    scriptURI,
-    domain,
-    excludePaths,
-    trackAcquisition,
-  } = getOptions(pluginOptions)
+  const { plausibleDomain, scriptURI, domain, excludePaths, trackAcquisition } =
+    getOptions(pluginOptions)
 
   const plausibleExcludePaths = []
   const Minimatch = require('minimatch').Minimatch
