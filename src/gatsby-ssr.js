@@ -1,3 +1,4 @@
+import Minimatch from 'minimatch'
 import React from 'react'
 
 const getOptions = (pluginOptions) => {
@@ -23,7 +24,6 @@ exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
     getOptions(pluginOptions)
 
   const plausibleExcludePaths = []
-  const Minimatch = require('minimatch').Minimatch
 
   excludePaths.map((exclude) => {
     const mm = new Minimatch(exclude)
