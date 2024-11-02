@@ -1,7 +1,7 @@
 {
   "name": "@dnwjn/gatsby-plugin-plausible",
   "description": "A Gatsby plugin for adding Plausible analytics to your Gatsby site.",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "Danique Wijnalda <hello@dnwjn.dev> (https://dnwjn.dev)",
   "contributors": [
     {
