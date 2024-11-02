@@ -1,5 +1,11 @@
+.github
 node_modules
 src
+.auto-changelog
 .babelrc
 .editorconfig
-.eslintrc
+.eslintignore
+.eslintrc.json
+.gitignore
+.nvmrc
+.prettierrc
