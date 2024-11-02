@@ -20,15 +20,21 @@ Add the plugin `gatsby-plugin-plausible` to your `gatsby-config.js`.
   name="gatsby-plugin-plausible"
   options={{
     // Replace with the domain you configured in the Plausible dashboard
-    domain: `gatsby-plugin-plausible`,
+    domain: 'gatsby-plugin-plausible',
+
+    // If you are self-hosting Plausible:
+    // plausibleDomain: 'your-plausible-instance.tld',
+
+    // If you want to use a custom script:
+    // plausibleScript: 'script.outbound-links.js',
+
+    // If you want to exclude specific paths:
+    // excludePaths: ['/exclude-path'],
   }}
 />
 
 ---
 
-Now you should configure the Plausible plugin in `gatsby-config.js`. The only
-required option is the domain.
+Read more about this plugin [here](https://www.github.com/dnwjn/gatsby-plugin-plausible).
 
-For the full set of options checkout https://www.npmjs.com/package/gatsby-plugin-plausible
-
-Read more about Plausible at: https://docs.plausible.io/
+Read more about Plausible [here](https://docs.plausible.io).

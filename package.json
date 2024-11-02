@@ -3,10 +3,17 @@
   "description": "A Gatsby plugin for adding Plausible analytics to your Gatsby site",
   "version": "0.0.7",
   "author": "Curtis Cummings <curtis@pixelplicity.com>",
+  "contributors": [
+    {
+      "name": "Danique Wijnalda",
+      "email": "hello@dnwjn.dev",
+      "url": "https://dnwjn.dev"
+    }
+  ],
   "license": "MIT",
-  "repository": "pixelplicity/gatsby-plugin-plausible",
+  "repository": "dnwjn/gatsby-plugin-plausible",
   "bugs": {
-    "url": "https://github.com/pixelplicity/gatsby-plugin-plausible/issues"
+    "url": "https://github.com/dnwjn/gatsby-plugin-plausible/issues"
   },
   "main": "index.js",
   "keywords": [
@@ -26,13 +33,13 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.9.2",
-    "react": "^16.13.1",
     "minimatch": "3.0.4"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
     "@babel/runtime": "^7.9.2",
+    "@ianvs/prettier-plugin-sort-imports": "4.1.1",
     "auto-changelog": "^2.0.0",
     "babel-eslint": "^10.1.0",
     "babel-preset-gatsby-package": "^0.3.1",
