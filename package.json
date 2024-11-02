@@ -1,9 +1,13 @@
 {
   "name": "gatsby-plugin-plausible",
-  "description": "A Gatsby plugin for adding Plausible analytics to your Gatsby site",
+  "description": "A Gatsby plugin for adding Plausible analytics to your Gatsby site.",
   "version": "0.0.7",
-  "author": "Curtis Cummings <curtis@pixelplicity.com>",
+  "author": "Danique Wijnalda <hello@dnwjn.dev> (https://dnwjn.dev)",
   "contributors": [
+    {
+      "name": "Curtis Cummings",
+      "email": "curtis@pixelplicity.com"
+    },
     {
       "name": "Danique Wijnalda",
       "email": "hello@dnwjn.dev",
