@@ -18,6 +18,14 @@ export default [
   {
     files: ['src/**/*.js'],
   },
+  {
+    ignores: [
+      'gatsby-browser.js',
+      'gatsby-node.js',
+      'gatsby-ssr.js',
+      'index.js',
+    ],
+  },
   ...compat.extends(
     'eslint:recommended',
     'plugin:react/recommended',
