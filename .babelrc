@@ -1,4 +1,8 @@
 {
   "presets": [["babel-preset-gatsby-package", { "browser": true }]],
-  "plugins": ["@babel/plugin-transform-private-methods"]
+  "plugins": [
+    "@babel/plugin-transform-private-methods",
+    ["@babel/plugin-transform-class-properties", { "loose": false }],
+    ["@babel/plugin-transform-private-property-in-object", { "loose": false }]
+  ]
 }
