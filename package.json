@@ -44,8 +44,7 @@
     "bump-major": "npm version major --no-git-tag-version"
   },
   "dependencies": {
-    "@babel/runtime": "^7.26.0",
-    "minimatch": "^10.0.1"
+    "@babel/runtime": "^7.26.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.25.9",
